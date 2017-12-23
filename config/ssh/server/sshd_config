@@ -1,0 +1,44 @@
+# Package generated configuration file
+# See the sshd_config(5) manpage for details
+
+Port 2222
+Protocol 2
+TCPKeepAlive yes
+LoginGraceTime 60
+
+StrictModes yes
+UsePrivilegeSeparation yes
+AllowUsers chip
+
+# HostKeys for protocol version 2
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# auth enables
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile %h/.ssh/authorized_keys
+
+# specs
+KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256
+Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256,umac-128@openssh.com
+
+# auth disables
+UsePAM no
+PermitRootLogin no
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+
+# rhosts stuff
+RhostsRSAAuthentication no
+HostbasedAuthentication no
+
+# logging
+SyslogFacility AUTH
+LogLevel INFO
+
+# random
+AcceptEnv LANG LC_*
+PrintMotd no
+PrintLastLog yes
