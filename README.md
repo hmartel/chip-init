@@ -11,7 +11,6 @@ $ unset SSH_PASS
 
 ## Todo
   + iptables
-  + node & npm
   + ecryptfs
   + wireguard
 
