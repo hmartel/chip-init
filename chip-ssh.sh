@@ -7,8 +7,8 @@ sudo ln -s -f ~/config/ssh/client/ssh_config /etc/ssh/ssh_config
 ln -s -f ~/config/ssh/client ~/.ssh
 
 cd ~/.ssh
-ssh-keygen -t ed25519 -N "$SSH_PASS"
-ssh-keygen -t rsa -b 4096 -N "$SSH_PASS"
+ssh-keygen -t ed25519 -N "$SSH_PASS" < /dev/null
+ssh-keygen -t rsa -b 4096 -N "$SSH_PASS" < /dev/null
 
 # server
 sudo apt install -y ssh
