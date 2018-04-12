@@ -9,7 +9,8 @@ mkdir ~/bin
 sudo apt update && \
   sudo apt upgrade -y
 
-sudo apt install -y curl \
+sudo apt install -y telnet \
+  curl \
   wget \
   git \
   xinput-calibrator
