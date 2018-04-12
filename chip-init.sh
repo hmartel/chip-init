@@ -9,7 +9,8 @@ mkdir ~/bin
 sudo apt update && \
   sudo apt upgrade -y
 
-sudo apt install -y telnet \
+sudo apt install -y build-essential
+  telnet \
   curl \
   wget \
   git \
