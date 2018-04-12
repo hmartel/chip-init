@@ -7,7 +7,7 @@
         {
           "name": "Terminal",
           "icon": "appIcons/terminal.png",
-          "shell": "vala-terminal -fs 8 -g 20 20"
+          "shell": "xfce4-terminal"
         },
         {
           "name": "Play PICO-8",
