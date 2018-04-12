@@ -12,8 +12,8 @@ last-window-height=272
 download-folder=/home/chip/Downloads
 toolbar-items=CompactMenu,TabNew,Back,NextForward,ReloadStop,Location,Search
 location-entry-search=https://duckduckgo.com/?q=%s
-homepage=https://duckduckgo.com
-tabhome=about:home
+homepage=about:blank
+tabhome=about:blank
 toolbar-style=MIDORI_TOOLBAR_SMALL_ICONS
 new-tab-type=MIDORI_NEWTAB_HOMEPAGE
 user-agent=Mozilla/5.0 (X11; Linux) AppleWebKit/538.15 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/538.15 Midori/0.5
