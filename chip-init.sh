@@ -14,3 +14,11 @@ sudo apt install -y telnet \
   wget \
   git \
   xinput-calibrator
+
+./chip-ssh && \
+  ./chip-keyboard.sh && \
+  ./chip-dots.sh && \
+  ./chip-theme.sh && \
+  ./chip-vim.sh && \
+  ./chip-node.sh && \
+  ./chip-web.sh

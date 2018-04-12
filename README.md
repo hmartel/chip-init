@@ -3,9 +3,9 @@ bash scripts for initializing my [Pocket CHIP](https://getchip.com/pages/pocketc
 
 ## Install
 ```
-$ git clone https://github.com/rhodey/chip-init /tmp/chip-init
+$ git clone https://github.com/rhodey/chip-init /tmp/chip-init && cd /tmp/chip-init
 $ export SSH_PASS=secret123; history -d $(history 1)
-$ /tmp/chip-init/chip-init.sh
+$ ./chip-init.sh
 $ unset SSH_PASS
 ```
 
