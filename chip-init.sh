@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 rm -rf ~/Public
 rm -rf ~/Templates
 
