@@ -23,4 +23,5 @@ sudo apt install -y build-essential
   ./chip-theme.sh && \
   ./chip-vim.sh && \
   ./chip-node.sh && \
-  ./chip-web.sh
+  ./chip-web.sh && \
+  ./chip-irc.sh
