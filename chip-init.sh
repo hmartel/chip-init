@@ -10,11 +10,11 @@ sudo apt update && \
   sudo apt upgrade -y
 
 sudo apt install -y build-essential
-  xclip \
-  telnet \
   curl \
-  wget \
   git \
+  telnet \
+  wget \
+  xclip \
   xinput-calibrator
 
 ./chip-ssh && \
