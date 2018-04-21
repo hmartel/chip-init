@@ -17,7 +17,7 @@ sudo apt install -y build-essential
   xclip \
   xinput-calibrator
 
-./chip-ssh && \
+./chip-ssh.sh && \
   ./chip-keyboard.sh && \
   ./chip-dots.sh && \
   ./chip-theme.sh && \
