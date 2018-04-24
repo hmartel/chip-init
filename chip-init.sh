@@ -22,8 +22,8 @@ sudo apt install -y build-essential \
 ./chip-ssh.sh && \
   ./chip-keyboard.sh && \
   ./chip-dots.sh && \
-  ./chip-theme.sh && \
   ./chip-vim.sh && \
   ./chip-node.sh && \
   ./chip-web.sh && \
-  ./chip-irc.sh
+  ./chip-irc.sh && \
+  ./chip-theme.sh
